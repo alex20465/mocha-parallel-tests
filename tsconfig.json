@@ -6,7 +6,8 @@
     "alwaysStrict": true,
     "declaration": true,
     "importHelpers": true,
-    "moduleResolution": "classic",
+    "lib": ["es6", "esnext.asynciterable", "es7"],
+    "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": false,
     "noImplicitThis": false,
@@ -14,7 +15,7 @@
     "noUnusedParameters": true,
     "sourceMap": true,
     "strictNullChecks": true,
-    "target": "esnext"
+    "target": "es6"
   },
   "include": [
     "./src/**/*.ts"
